@@ -12,4 +12,9 @@ public class TherapistController {
 	public String addTherapist(){
 		return "";
 	}
+
+	@PostMapping("/remove")
+	public String removeTherapist(){
+		return "";
+	}
 }
